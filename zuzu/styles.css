@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body {
+     background-image: url('back.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center top;
+}
+
+.headerio-konteineris {
+     background-color: rgba(0, 0, 0, 0.377);
+     border-bottom: 3px solid rgb(255, 234, 7);
+     position: relative;
+}
+
+.headerio-col {
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     
+}
+
+.meniu, .logo, .contacts {
+}
+.meniu a, .contacts a {
+     text-decoration: none;
+     color: white;
+     font-family: Ubuntu;
+     transition: font-size ease-in-out .5s;
+     will-change: transform;
+}
+.meniu a:hover, .contacts a:hover {
+     transition: font-size ease-in-out .5s;
+     will-change: transform;
+     color: rgb(255, 234, 7);
+}
+
+
+
+.body-konteineris {
+     padding: 50px;
+}
+
+
+.body-headeris {
+     color: white;
+     background-color: black;
+     text-align: center;
+     border-radius: 25px;
+}
+.body-headeris h1 {
+     font-weight: bold;
+     padding-top: 10px;
+}
+
+
+.box-mygtukai {
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 20px;
+}
+
+.mygtukas button {
+     background-color: rgb(255, 234, 7);
+     color: black;
+     border-radius: 10px;
+     padding: 10px;
+     font-weight: bold;
+     border: 1px solid black;
+     transition: 0.5s;
+}
+
+.mygtukas button:hover {
+     color:white;
+     background-color: grey;
+}
+
+
+
+
+
+
+
+
+.footerio-konteineris {
+     background-color: rgb(0, 0, 0);
+     border-top: 3px solid #ebe835;
+     position: fixed;
+     bottom: 0%;
+}
+
+.footerio-col {
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     padding: 40px;
+     
+}
+
+.footerio-col a {
+     text-decoration: none;
+     color: white;
+     font-family: Ubuntu;
+     transition: font-size ease-in-out .5s;
+     
+}
+
+.footerio-social i, .footerio-header a, .footerio-rekvizitai a{
+     transition: 0.5s;
+}
+
+.footerio-social i:hover, .footerio-header a:hover, .footerio-rekvizitai a:hover{
+     color: #ebe835;
+}
